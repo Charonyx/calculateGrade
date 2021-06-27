@@ -30,6 +30,6 @@ function calGrade() {
     }
     GPAX = GPA / unitAll; 
     console.log('GPAX: ' + GPAX);
-    document.getElementById('result').innerText = GPAX;
+    document.getElementById('result').value = GPAX;
     document.getElementById('result2').innerHTML = GPAX;
 }
